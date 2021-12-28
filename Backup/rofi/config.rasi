@@ -1,0 +1,12 @@
+configuration {
+	modi: "drun,window,run,windowcd,ssh,combi,keys";
+	width: 25;
+	show-icons: false;
+	icon-theme: "papirus";
+	lines: 10;
+	fake-transparency: false;
+	sidebar-mode: true;
+}
+
+@import "~/.config/rofi/Ayu-Mirage.rasi"
+@theme "~/.cache/wal/colors-rofi-dark.rasi"
